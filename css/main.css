@@ -1,0 +1,71 @@
+body {
+  font-family: arial;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+p{
+  font-size: 16px;
+}
+
+h1, h2, h3, p, img {
+  margin-top: 30px;
+}
+
+.new  {
+  background: rgb(22, 53, 163);
+  width: 300px;
+  color: white;
+}
+
+p span {
+  color: red;
+}
+
+h2 {
+  color: white;
+  background: rgb(16, 131, 103);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.block {
+padding: 50px;
+}
+
+.box {
+  font-size: 26px;
+  color: rgb(142, 67, 218);
+  font-weight: bold;
+  padding: 5px 135px;
+}
+
+
+.point {
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.bold {
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+селектор {
+  свойство : значение ;
+  cвойство : значение ;
+  свойство : значение ;
+  свойство : значение ;
+}
