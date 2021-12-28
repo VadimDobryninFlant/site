@@ -1,63 +1,177 @@
 body {
-  font-family: arial;
-  color: black;
-  font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: ;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
 }
 
-h1 {
-  color: red;
+div,p, input, button, form, a, ul, li {
+	box-sizing: border-box;
 }
 
-p{
-  font-size: 16px;
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	font-weight: 900;
 }
 
-h1, h2, h3, p, img {
-  margin-top: 30px;
+p {
+	line-height: 1.66em;
 }
 
-.logo{
-  width: 200px;
-height: 200px;
+.container {
+	width: 1170px;
+	margin: 0 auto;
 }
 
-.new  {
-  background: rgb(22, 53, 163);
-  width: 300px;
-  color: white;
+header {
+background: rgba(42,167,239,1);
+background: -moz-linear-gradient(left, rgba(42,167,239,1) 0%, rgba(9,127,195,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(42,167,239,1)), color-stop(100%, rgba(9,127,195,1)));
+background: -webkit-linear-gradient(left, rgba(42,167,239,1) 0%, rgba(9,127,195,1) 100%);
+background: -o-linear-gradient(left, rgba(42,167,239,1) 0%, rgba(9,127,195,1) 100%);
+background: -ms-linear-gradient(left, rgba(42,167,239,1) 0%, rgba(9,127,195,1) 100%);
+background: linear-gradient(to right, rgba(42,167,239,1) 0%, rgba(9,127,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aa7ef', endColorstr='#097fc3', GradientType=1 );
+padding-top: 58px;
+padding-bottom: 144px;
 }
 
-p span {
-  color: red;
+.logo {
+
 }
 
-h2 {
-  color: white;
-  background: rgb(16, 131, 103);
-  font-size: 30px;
-  font-weight: bold;
+.wrapper {
+	display: flex;
+	justify-content: space-between;
 }
 
-.block {
-padding: 50px;
+.offer {
+	margin-top: 95px;
 }
 
-.box {
-  font-size: 26px;
-  color: rgb(142, 67, 218);
-  font-weight: bold;
-  margin-left: 100px;
+h1.title {
+	font-size:30px;
+	color: #ffffff;
+	width: 550px;
+}
+
+span {
+	font-size: 36px;
+}
+
+.intro {
+	color: #ffffff ;
+	margin-bottom: 37px;
+	width: 380px;
+	margin-top: 20px;
+}
+
+.btn {
+	background: #F4D04F;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	width: 220px;
+	padding: 18px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #F0C119;
+}
+
+.desktop {
+	height: 550px;
+	}
+
+.learn {
+	padding-top:100px ;
+	padding-bottom:122px ;
+	text-align: center;
+	}
+
+.section title {
+	font-size: 28px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 64px;
+}
+
+.skill title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.skill text {
+ 
+}
+
+.time, .travell {
+width: 300px;	
+padding-top: 80px;
+}
+
+.time {
+	background: url(../img/icon1.jpg) no-repeat top;	
+}
+
+.travell { 
+    background: url(../img/icon2.jpg) no-repeat top;
+}
+
+.impotant {
+	width: 320px;
+	background: url(../img/icon3.jpg) no-repeat top;
+	padding-top: 80px;
+}
+
+.form {
+	background: #DCE2EA;
+	padding: 100px 0;
+}
+
+.form .form_order { 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}	
+
+.form h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.input {
+	width: 380px;
+	height: 45px;
+	margin-bottom: 20px;
+	padding left: 20px;
+	border: 2px solid #999A9D;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn-form {
+	border: none;
+}
+
+footer {
+	background: #38415F;
+	color: #ffffff;
+	padding: 40px 0;
+	text-align: center;
 }
 
 
-.point {
-  font-size: 24px;
-  border: 1px solid black;
-}
-
-.bold {
-padding: 10px;
-}
 
 
 
@@ -67,10 +181,3 @@ padding: 10px;
 
 
 
-
-селектор {
-  свойство : значение ;
-  cвойство : значение ;
-  свойство : значение ;
-  свойство : значение ;
-}

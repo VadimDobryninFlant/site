@@ -2,97 +2,88 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>index</title>
-  <base target="_blank">
+  <title>Верстка современного сайта</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap; subset- cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>   
- <header>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <img src="img/logo.png" alt="logo" class="logo">
+      <div class="wrapper">
+        <div class="offer">
+         <h1 class="title">
+         С помощью верстки <br> я создам ту жизнь, о которой <span>мечтаю</span>!
+         </h1>
+         <p class="intro">
+          Мои стремления + настойчивость позволят мне достичь чего угодно. Я верю в это. Я знаю это на 100%. Меня не остановить!
+         </p>
+         <a href="#" class="btn">Двигаться к мечте!
+         </a>
+        </div>
+        <img src="img/img.png" alt="code desktop" class="desktop">
+      </div>
+    </div>
+  </header>
 
-   <img class="logo" src="img/flant.png" alt="Флант">
- 
-   <h1>
-     FLANT - не просто новый титул для системных администраторов.
-   </h1>
+  <section id="learn" class="learn">
+    <div class="container">
+      <h2 class="section title">
+        Что меня ждет впереди
+      </h2>
+      <div class="skills">
+        <div class="time">
+          <h3 class="skill title">
+           Свободное время
+          </h3>
+          <p class="skill text">
+           Мне нужно свободное время на семью и самое настоящее.
+          </p>
+        </div>
+        <div class="travell">
+          <h3 class="skill title">
+           Яркие путешествия
+          </h3>
+          <p class="skill text">
+           Работать откуда угодно - что может быть лучше?
+          </p>
+        </div>
+        <div class="impotant">
+          <h3 class="skill title">
+           Создание ценности
+          </h3>
+          <p class="skill text">
+           Нет ничего сильнее, чем жить не просто так, создавая ценность.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-   <p class="new">
-     DevOps — это прогрессивный подход, нацеленный на синергию отделов разработки программного обеспечения и эксплуатации инфраструктуры, где это ПО запускается.
-   </p>
+  <section id="form" class="form">
+    <div class="container">
+      <h2 class="section title">
+        Форма заказа билета в будущее
+      </h2>
+      <form action="#" class="form_order">
+        <input type="text" name="Name" class="input" placeholder="Имя" required>
+        <input type="e-mail" name="e-mail" class="input" placeholder="E-mail" required>
+        <input type="tel" name="tel" class="input" placeholder="Телефон" required>
+        <input type="text" name="Where i fly" class="input" placeholder="Куда я полечу в ближайшее время?" required>
+        <button type="submit" class="btn btn-form"> 
+          Двигаться к мечте!
+        </button>
+      </form>
+    </div>
+  </section>
 
-   <p>
-     Первый сертифицированный поставщик услуг по <span>Kubernetes в России.</span>
-   </p>
-
-</header>
-
-<section>
-
-   <h2 class="bold">
-     Отвечаем за бесперебойную работу production.
- </h2>
-
-   <p>
-     Поскольку DevOps — это не только технический вопрос, но и изменение подходов к разработке, введение в проект готовых специалистов и процессов позволяет добиться нужного эффекта в сжатые сроки. Узнать больше <a href="https://flant.ru/">о нас</a> .
-   </p>
-
-   </section>
-
-   <section>
-
-   <h2 class="block">
-    Почему Флант?
- </h2>
-
-   <p>
-     Будучи пионерами в обслуживании инфраструктурных Open Source-решений, мы непрерывно совершенствуем технологии и подходы к их применению, а также процессы взаимодействия с клиентами.
-     Остались вопросы? 
-   </p>
-
-   <p class="box">
-    Свяжитесь с нами!
-   </p>
-
-   <form action="#">
-    <input type="text" name="name" placeholder="Имя" required>
-    <input type="tel" name="tel" placeholder="Номер телефона" required>
-    <input type="email" name="email" placeholder="E-mail" required>
-    <button type="submit">Отправить</button>   
-   </form>
- 
- 
-    <img class="img" src="img/work.jpeg" width="500" height="300" alt="Work">
-    <h3>
-
-      Работа во «Фланте» — это:
-    </h3>
-
-    <ul>
-      <li class="point">
-        Погружение в передовые cloud native-технологии
-      </li>
-
-      <li class="point"> 
-          Участие в разработке классных Open Source-продуктов
-    </li>
-
-      <li class="point">
-        Непрерывное развитиеhard & soft skills
-      </li>
-    </ul>
-
-</section>
-
-<footer>
-
-     <h2 class="bold">
-       Бесперебойная работа production!
-   </h2>
-
-     <p>
-       <a href="https://wayup.in/cabinet/course10-25-wave/unit1/lesson1">Перейти на страницу первого занятия курса.</a>
-     </p>
-
- </footer>
+  <footer id="footer" class="footer">
+    <div class="container">
+      <p>
+        © Все мои мечты защищены моим трудолюбием.
+      </p>
+    </div> 
+  </footer>
 
 </body>
 </html>
